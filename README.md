@@ -5,7 +5,7 @@
    2. [Raison du developpement](#raison)
 2. [Fonctionalité et Téchnologies Utilisées](#fonction)
    1. [Téchnologies Utilisées](#techno)
-   2. [Fonctionalitées](#fonctionalite)
+   2. [Fonctionalités](#fonctionalite)
 3. [Guide d'installation](#guide)
    1. [Elements requis](#element)
    2. [Installation des packages necessaire](#packages)
@@ -23,17 +23,17 @@
 ## 1 Mon Projet <a name="mon_projet"></a>
 ### 1 Description <a name="description"></a>
     
-Spotifix est un logiciel permetant d'utiliser Spotify en CLI. À la difference de `spotify-cli` l'interface cli et bien plus petite avec seulement les informations neccesaires à l'instant T. Et contrairement à `tizonia` il embarque plus de fonctionalitées et est plus légé.
+Spotifix est un logiciel permetant d'utiliser Spotify en CLI. À la différence de `spotify-cli` l'interface cli est bien plus petite avec seulement les informations nécessaires à l'instant T. Et contrairement à `tizonia` il embarque plus de fonctionalités et est plus léger.
 
-Spotifix utilise l'api de spotify, ce qui permet d'avoir les mêmes fonctionalitées que le client lourd(enfin pas pour le moment mais c'est le but). Il est bien plus légé que le client lourd et n'a pas besoin d'interface graphique.
+Spotifix utilise l'api de spotify, ce qui permet d'avoir les mêmes fonctionalités que le client lourd (enfin pas pour le moment mais c'est le but). Il est bien plus léger que le client lourd et n'a pas besoin d'interface graphique.
 
-### 2 Raison du developpement <a name="raison"></a>
+### 2 Raison du développement <a name="raison"></a>
 
-Spotifix à été developper pour lors d'un projet d'étude. Le but premier était de déveloper un mixte de  `tizonia` et de `spotify-cli` en prennant exemple de l'interface CLI épuré de `tizonia` couplé aux fonctionalitées de `spotify-cli`.
+Spotifix à été developpé lors d'un projet d'étude. Le but premier était de développer un mixte de  `tizonia` et de `spotify-cli` en prenant exemple de l'interface CLI épurée de `tizonia` couplée aux fonctionalités de `spotify-cli`.
 
-Developpé en python il permet de s'intaller facilement sur n'importe quel architecture `RISC`.
+Developpé en python il permet de s'intaller facilement sur n'importe quelle architecture `RISC`.
 
-## 2 Fonctionalité et Téchnologies Utilisées <a name="fonction"></a>
+## 2 Fonctionalités et Technologies Utilisées <a name="fonction"></a>
 ### I Téchnologies Utilisées <a name="techno"></a>
 **Langage:**
 * Python3
@@ -50,23 +50,23 @@ Developpé en python il permet de s'intaller facilement sur n'importe quel archi
 * json
 
 
-### II Fonctionalitées <a name="fonctionalite"></a>
-* Rechercher un artist et jouer un de ses son.
-* Rechercher une playlist et et la jouer
-* Voir mes playlist et les jouers.
-* Lecteur avec une bar de progression en temps réel
+### II fonctionalités <a name="fonctionalite"></a>
+* Rechercher un artist et jouer un de ses sons.
+* Rechercher une playlist et la jouer
+* Voir mes playlist et les jouer.
+* Lecteur avec une barre de progression en temps réel
 * Modifier mes playlists
 
-**Fonctionalitées du lecteur:**
+**Fonctionalités du lecteur:**
 * Lecture / Pause
 * Volume + / -
 * Suivre la playlist
 * Ajouter un son à une playlist
 * Lecture aléatoire
 * Chanson suivante
-* Chanson précedente
+* Chanson précédente
 
-**Fonctionalitées de modifacation de playlist:**
+**Fonctionalités de modification de playlist:**
 * Changer le nom
 * Changer la description
 * Changer l'état de la playlist (Public/Privé)
@@ -78,9 +78,9 @@ Developpé en python il permet de s'intaller facilement sur n'importe quel archi
 
 ## 3 Guide d'installation <a name="guide"></a>
 ***Instalation faite sous Arch-Linux***
-### I Elements requis <a name="element"></a>
+### I Eléments requis <a name="element"></a>
 
-Pour instaler et utiliser Spotifix vous devez avoir:
+Pour installer et utiliser Spotifix vous devez avoir:
 1. Un compte Spotify premium 
 2. Le client Lourd de spotify ou un moteur de recherche avec spotify de lancé dessus (en étant connecté).
 3. Python3
@@ -93,7 +93,7 @@ Pour instaler et utiliser Spotifix vous devez avoir:
 sudo pacman -Syyuu
 sudo pacman -S python3
 ```
-2. Installation des différents packages neccesaires:
+2. Installation des différents packages nécessaires:
 
 ```
 sudo pip3 install threaded spotipy jsondiff jsonschema datetime spotify
@@ -109,17 +109,17 @@ sudo pacman -S git
 git clone https://github.com/FlorianLeveil/UF_DEV_LOGICIEL
 ```
 3. Recolter sa clé privé et public spotify.
-   1. Aller sur se lien: https://developer.spotify.com/dashboard/
+   1. Aller sur ce lien: https://developer.spotify.com/dashboard/
    ![GitHub Logo](./Images/dashboard.png)
-   1. Connectez vous
-   2. Créez un nouveau projet
+   1. Se connecter
+   2. Créer un nouveau projet
    ![GitHub Logo](./Images/create.png)
-   3. Cliquez sur votre nouveau projet
+   3. Cliquer sur votre nouveau projet
    4. Copier coller votre client-id dans le `main.py` à la ligne 17
    ![GitHub Logo](./Images/secret.png)
    5. Appuyer sur `Show client secret` et copier coller votre client secret dans le `main.py` à la ligne 16.
 
-4. Spotifix est installer. Pour l'éxcuter faite comme ceci:
+4. Spotifix est installé. Pour l'éxcuter faire comme ceci:
 ```
 python3 ./main.py <user_name>
 ```
@@ -131,11 +131,11 @@ python3 ./main.py <user_name>
 
 ***
 ### II Search for an artist <a name="artist"></a>
-**Mettez le nom de l'ariste que vous voulez**
+**Mettre le nom de l'ariste que vous voulez**
 
 ![GitHub Logo](./Images/name_artist.png)
 
-**Entez le numero du son que vous voulez jouer**
+**Entrer le numero du son que vous voulez jouer**
 
 ![GitHub Logo](./Images/choise_song.png)
 
@@ -146,7 +146,7 @@ python3 ./main.py <user_name>
 **Les commandes:**
 * p : Met votre son en pause
 * l : Met votre son en lecture
-* / - / + : Monter et dessendre le volume de spotify
+* / - / + : Monter et descendre le volume de spotify
 * x : quitter et revenir au menu précedent
 * r : Ajoute le son a la playlist de votre choix
 
@@ -157,7 +157,7 @@ python3 ./main.py <user_name>
 ***
 ### III Search for a playlist <a name="playlist"></a>
 
-**Taper le nom de la playlist ou le genre que vous voulez et entrez le numero de la playlist**
+**Taper le nom de la playlist ou le genre que vous voulez et entrer le numéro de la playlist**
 
 ![GitHub Logo](./Images/enter_number_playlist.png)
 
@@ -168,17 +168,17 @@ python3 ./main.py <user_name>
 **Les commandes:**
 * p : Met votre son en pause
 * l : Met votre son en lecture
-* s : Lis vos sons de façon aléatoire
+* s : Lit vos sons de façon aléatoire
 * n : Son suivant
 * b : Son précedent
-* / - / + : Monter et dessendre le volume de spotify
+* / - / + : Monter et descendre le volume de spotify
 * x : quitter et revenir au menu précedent
 * a : Suivre la playlist
 
 ***
 ### IV Play one of my playlist <a name="one_playlist"></a>
 
-**Taper le numero de la playlist que vous voulez jouer**
+**Taper le numéro de la playlist que vous voulez jouer**
 
 ![GitHub Logo](./Images/choise_playlist.png)
 
@@ -186,14 +186,13 @@ python3 ./main.py <user_name>
 
 ![GitHub Logo](./Images/lecteur_playlist.png)
 
-
 **Les commandes:**
 * p : Met votre son en pause
 * l : Met votre son en lecture
-* s : Lis vos sons de façon aléatoire
+* s : Lit vos sons de façon aléatoire
 * n : Son suivant
 * b : Son précedent
-* / - / + : Monter et dessendre le volume de spotify
+* / - / + : Monter et descendre le volume de spotify
 * x : quitter et revenir au menu précedent
 
 ***
@@ -205,7 +204,7 @@ python3 ./main.py <user_name>
 
 **Choix 1: Modifier une playlist**
 
-**Entrez le numero de votre playlist**
+**entrer le numéro de votre playlist**
 
 ![GitHub Logo](./Images/setting_choise_playlist.png)
 
@@ -222,19 +221,19 @@ python3 ./main.py <user_name>
 
 **Supprimer le son de votre playlist**
 
-Entrer le numero du son que vous voulez supprimer
+Entrer le numéro du son que vous voulez supprimer
 
 ![GitHub Logo](./Images/remove_song.png)
 
 **Changer le nom de votre playlist**
 
-Entrez votre nouveau nom
+entrer votre nouveau nom
 
 ![GitHub Logo](./Images/change_name.png)
 
 **Mettre votre playlist en public ou privé**
 
-Entrez `public` ou `private`
+entrer `public` ou `private`
 
 ![GitHub Logo](./Images/change_state.png)
 
@@ -249,31 +248,31 @@ Entrer la nouvelle descritpion de votre playlist
 ![GitHub Logo](./Images/setting_not_myplaylist.png)
 
 **Les commandes:**
-* 1 : Se desabonner de la playlist
-* 2 : Ajouter un des sons de cette playlist a une autre
+* 1 : Se désabonner de la playlist
+* 2 : Ajouter un des sons de cette playlist à une autre
 
-**Ajouter un des sons de cette playlist a une autre**
+**Ajouter un des sons de cette playlist à une autre**
 
-Entrez le numero du son concernée
+entrer le numéro du son concerné
 
 ![GitHub Logo](./Images/choise_a_song_for_other_playlist.png)
 
-Entrer le numero de la playlist concernée
+Entrer le numéro de la playlist concernée
 
 ![GitHub Logo](./Images/choise_playlist.png)
 
 
 **Choix 2: Créer une playlist**
 
-Entrez le nom de votre playlist
+entrer le nom de votre playlist
 
 ![GitHub Logo](./Images/enter_new_name.png)
 
-Entrez la description de votre playlist
+entrer la description de votre playlist
 
 ![GitHub Logo](./Images/new_descritpion.png)
 
-Choisissez entre public ou privé!
+Choisir entre public ou privé!
 
 ![GitHub Logo](./Images/new_state.png)
 
@@ -287,7 +286,7 @@ Confirmer la création de votre playlist
 
 1. Vous ne pouvez pas quitter le lecteur si le son ou la playlist est en pause
 2. Vous ne pouvez pas activer la fonction shuffle sur une playlist puis revenir sur la recherche d'artist pour lire un son
-3. La fonction resume ne marche plus des lors que vous rentrer dans le menu de modification de playlist
+3. La fonction resume ne marche plus des lors que vous rentrez dans le menu de modification de playlist
 4. Gérer la casse sur les fonctions suivante:
    * Resume
    * Chercher un artiste
@@ -299,4 +298,4 @@ Confirmer la création de votre playlist
 
 * Doc SDK Spotipy: https://spotipy.readthedocs.io/en/2.12.0/
 * Doc API Spotify: https://developer.spotify.com/console/
-* Ma presentation en PDF : [Ma présentation](./presentation.pdf)
+* Ma présentation en PDF : [Ma présentation](./presentation.pdf)
