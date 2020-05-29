@@ -273,7 +273,7 @@ Entrez la description de votre playlist
 
 ![GitHub Logo](./Images/new_descritpion.png)
 
-choisissez entre public ou privé!
+Choisissez entre public ou privé!
 
 ![GitHub Logo](./Images/new_state.png)
 
@@ -282,13 +282,21 @@ Confirmer la création de votre playlist
 ![GitHub Logo](./Images/confirm.png)
 
 
-
-
-
-
-
-
 ***
 ## 5 Bug à corriger <a name="bug_a_corriger"></a>
 
+1. Vous ne pouvez pas quitter le lecteur si le son ou la playlist est en pause
+2. Vous ne pouvez pas activer la fonction shuffle sur une playlist puis revenir sur la recherche d'artist pour lire un son
+3. La fonction resume ne marche plus des lors que vous rentrer dans le menu de modification de playlist
+4. Gérer la casse sur les fonctions suivante:
+   * Resume
+   * Chercher un artiste
+   * Chercher une playlist
+   * Jouer une de mes playlist
+
+
 ## 6 Annexes <a name="annexe"></a>
+
+* Doc SDK Spotipy: https://spotipy.readthedocs.io/en/2.12.0/
+* Doc API Spotify: https://developer.spotify.com/console/
+* Ma presentation en PDF : [Ma présentation](./presentation.pdf)
