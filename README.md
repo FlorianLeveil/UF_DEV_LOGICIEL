@@ -129,6 +129,7 @@ python3 ./main.py <user_name>
 
 ![Menu](./Images/home.png)
 
+***
 ### II Search for an artist <a name="artist"></a>
 **Mettez le nom de l'ariste que vous voulez**
 
@@ -153,10 +154,141 @@ python3 ./main.py <user_name>
 
 ![GitHub Logo](./Images/choise_playlist_foraddsong.png)
 
+***
 ### III Search for a playlist <a name="playlist"></a>
+
+**Taper le nom de la playlist ou le genre que vous voulez et entrez le numero de la playlist**
+
+![GitHub Logo](./Images/enter_number_playlist.png)
+
+#### Lecteur:
+
+![GitHub Logo](./Images/playlist_lecteur.png)
+
+**Les commandes:**
+* p : Met votre son en pause
+* l : Met votre son en lecture
+* s : Lis vos sons de façon aléatoire
+* n : Son suivant
+* b : Son précedent
+* / - / + : Monter et dessendre le volume de spotify
+* x : quitter et revenir au menu précedent
+* a : Suivre la playlist
+
+***
 ### IV Play one of my playlist <a name="one_playlist"></a>
+
+**Taper le numero de la playlist que vous voulez jouer**
+
+![GitHub Logo](./Images/choise_playlist.png)
+
+#### Lecteur:
+
+![GitHub Logo](./Images/lecteur_playlist.png)
+
+
+**Les commandes:**
+* p : Met votre son en pause
+* l : Met votre son en lecture
+* s : Lis vos sons de façon aléatoire
+* n : Son suivant
+* b : Son précedent
+* / - / + : Monter et dessendre le volume de spotify
+* x : quitter et revenir au menu précedent
+
+***
 ### V Setting playlist <a name="setting"></a>
 
+**Choisir entre modifier une playlist ou en créer une**
+
+![GitHub Logo](./Images/setting_playlist.png)
+
+**Choix 1: Modifier une playlist**
+
+**Entrez le numero de votre playlist**
+
+![GitHub Logo](./Images/setting_choise_playlist.png)
+
+**Si vous êtes le proprietaire de la playlist vous tomberez sur ce menu**
+
+![GitHub Logo](./Images/modify_my_playlist.png)
+
+**Les commandes:**
+* 1 : Supprimer un son de votre playlist
+* 2 : Changer le nom de votre playlist
+* 3 : Mettre votre playlist en public ou privé
+* 4 : Changer la description de votre playlist
+* 5 : Quitter
+
+**Supprimer le son de votre playlist**
+
+Entrer le numero du son que vous voulez supprimer
+
+![GitHub Logo](./Images/remove_song.png)
+
+**Changer le nom de votre playlist**
+
+Entrez votre nouveau nom
+
+![GitHub Logo](./Images/change_name.png)
+
+**Mettre votre playlist en public ou privé**
+
+Entrez `public` ou `private`
+
+![GitHub Logo](./Images/change_state.png)
+
+**Changer la description de votre playlist**
+
+Entrer la nouvelle descritpion de votre playlist
+
+![GitHub Logo](./Images/change_description.png)
+
+**Si vous n'êtes pas le proprietaire de la playlist vous tomberez sur ce menu**
+
+![GitHub Logo](./Images/setting_not_myplaylist.png)
+
+**Les commandes:**
+* 1 : Se desabonner de la playlist
+* 2 : Ajouter un des sons de cette playlist a une autre
+
+**Ajouter un des sons de cette playlist a une autre**
+
+Entrez le numero du son concernée
+
+![GitHub Logo](./Images/choise_a_song_for_other_playlist.png)
+
+Entrer le numero de la playlist concernée
+
+![GitHub Logo](./Images/choise_playlist.png)
+
+
+**Choix 2: Créer une playlist**
+
+Entrez le nom de votre playlist
+
+![GitHub Logo](./Images/enter_new_name.png)
+
+Entrez la description de votre playlist
+
+![GitHub Logo](./Images/new_descritpion.png)
+
+choisissez entre public ou privé!
+
+![GitHub Logo](./Images/new_state.png)
+
+Confirmer la création de votre playlist
+
+![GitHub Logo](./Images/confirm.png)
+
+
+
+
+
+
+
+
+***
 ## 5 Bug à corriger <a name="bug_a_corriger"></a>
 
 ## 6 Annexes <a name="annexe"></a>
