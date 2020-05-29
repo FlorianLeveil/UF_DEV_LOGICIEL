@@ -67,6 +67,8 @@ Setting Paylist:
 
 ## 2 Main.py <a name="main"></a>
 
+Le main.py se connecte à l'api de spotify, demande un token, et initialise un object Spotify. Il s'occuper d'appeler les plus grosse fonction de mon programe ansi que d'afficher le main menu.
+
 ***
 
 ## 3 Fonction <a name="function"></a>
