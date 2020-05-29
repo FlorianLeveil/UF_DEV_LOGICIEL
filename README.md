@@ -11,10 +11,11 @@
    2. [Installation des packages necessaire](#packages)
    3. [Installation de Spotifix](#spotifix)
 4. [Fonctionnement et utilisation](#fonctionnement)
-   1. [Search for an artist](#artist)
-   2. [Search for a playlist](#playlist)
-   3. [Play one of my playlist](#one_playlist)
-   4. [Setting playlist](#setting)
+   1. [Menu](#menu)
+   2. [Search for an artist](#artist)
+   3. [Search for a playlist](#playlist)
+   4. [Play one of my playlist](#one_playlist)
+   5. [Setting playlist](#setting)
 5. [Bug à corriger](#bug_a_corriger)
 6. [Annexes](#annexe)
 
@@ -33,7 +34,7 @@ Spotifix à été developper pour lors d'un projet d'étude. Le but premier éta
 Developpé en python il permet de s'intaller facilement sur n'importe quel architecture `RISC`.
 
 ## 2 Fonctionalité et Téchnologies Utilisées <a name="fonction"></a>
-### 1 Téchnologies Utilisées <a name="techno"></a>
+### I Téchnologies Utilisées <a name="techno"></a>
 **Langage:**
 * Python3
   
@@ -49,7 +50,7 @@ Developpé en python il permet de s'intaller facilement sur n'importe quel archi
 * json
 
 
-### 2 Fonctionalitées <a name="fonctionalite"></a>
+### II Fonctionalitées <a name="fonctionalite"></a>
 * Rechercher un artist et jouer un de ses son.
 * Rechercher une playlist et et la jouer
 * Voir mes playlist et les jouers.
@@ -77,7 +78,7 @@ Developpé en python il permet de s'intaller facilement sur n'importe quel archi
 
 ## 3 Guide d'installation <a name="guide"></a>
 ***Instalation faite sous Arch-Linux***
-### 1 Elements requis <a name="element"></a>
+### I Elements requis <a name="element"></a>
 
 Pour instaler et utiliser Spotifix vous devez avoir:
 1. Un compte Spotify premium 
@@ -85,7 +86,7 @@ Pour instaler et utiliser Spotifix vous devez avoir:
 3. Python3
 4. Git
 
-### 2 Installation des packages necessaire <a name="packages"></a>
+### II Installation des packages necessaire <a name="packages"></a>
 1. Installation de python3
 
 ```
@@ -97,7 +98,7 @@ sudo pacman -S python3
 ```
 sudo pip3 install threaded spotipy jsondiff jsonschema datetime spotify
 ```
-### 3 Installation de Spotifix <a name="spotifix"></a>
+### III Installation de Spotifix <a name="spotifix"></a>
 
 1. Installtion de git
 ```
@@ -124,10 +125,37 @@ python3 ./main.py <user_name>
 ```
 
 ## 4 Fonctionnement et utilisation <a name="fonctionnement"></a>
-### 1 Search for an artist <a name="artist"></a>
-### 2 Search for a playlist <a name="playlist"></a>
-### 3 Play one of my playlist <a name="one_playlist"></a>
-### 4 Setting playlist <a name="setting"></a>
+### I Menu <a name="menu"></a>
+
+![Menu](./Images/home.png)
+
+### II Search for an artist <a name="artist"></a>
+**Mettez le nom de l'ariste que vous voulez**
+
+![GitHub Logo](./Images/name_artist.png)
+
+**Entez le numero du son que vous voulez jouer**
+
+![GitHub Logo](./Images/choise_song.png)
+
+#### Lecteur:
+
+![GitHub Logo](./Images/func_listensong.png)
+
+**Les commandes:**
+* p : Met votre son en pause
+* l : Met votre son en lecture
+* / - / + : Monter et dessendre le volume de spotify
+* x : quitter et revenir au menu précedent
+* r : Ajoute le son a la playlist de votre choix
+
+**Pour ajouter le son a une de vos playlist entrer `r` puis entrer le numero de votre playlist**
+
+![GitHub Logo](./Images/choise_playlist_foraddsong.png)
+
+### III Search for a playlist <a name="playlist"></a>
+### IV Play one of my playlist <a name="one_playlist"></a>
+### V Setting playlist <a name="setting"></a>
 
 ## 5 Bug à corriger <a name="bug_a_corriger"></a>
 
