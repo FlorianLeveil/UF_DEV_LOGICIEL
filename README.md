@@ -34,6 +34,9 @@ Spotifix à été developpé lors d'un projet d'étude. Le but premier était de
 Developpé en python il permet de s'intaller facilement sur n'importe quelle architecture `RISC`.
 
 ## 2 Fonctionalités et Technologies Utilisées <a name="fonction"></a>
+
+*Ma documentation technique en PDF : [Documentation technique](./document_technique.pdf)*
+
 ### I Téchnologies Utilisées <a name="techno"></a>
 **Langage:**
 * Python3
@@ -299,3 +302,4 @@ Confirmer la création de votre playlist
 * Doc SDK Spotipy: https://spotipy.readthedocs.io/en/2.12.0/
 * Doc API Spotify: https://developer.spotify.com/console/
 * Ma présentation en PDF : [Ma présentation](./presentation.pdf)
+* Ma documentation technique en PDF : [Documentation technique](./document_technique.pdf)
